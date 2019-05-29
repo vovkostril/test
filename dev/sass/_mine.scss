@@ -1,0 +1,37 @@
+body {
+    background: /*url("../img/logos.png") no-repeat center top;*/
+    url("public/img/bg-light.jpg");
+}
+
+.colourtext {
+    color: #e0a800;
+}
+
+.reg_form {
+    padding: 35px;
+    margin: 0;
+    text-align: center;
+    background-color: #545b62;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+
+.header {
+    padding-top: 15px;
+    margin-top: 50 px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.footer {
+    padding: 2rem 0;
+    height: 120px;
+    text-align: center;
+    background: #545b62;
+    color: $white;
+    margin-top: 3rem;
+}
+
+.about {
+    margin-top: 15px;
+}
