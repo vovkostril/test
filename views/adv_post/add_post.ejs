@@ -1,0 +1,27 @@
+<% include ../layout/header.ejs %>
+
+    <div class="card mb-3">
+
+        <div class="card-body">
+            <h5 class="card-title">Add post now</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+            <form>
+                <div class="form-group">
+                    <label for="">Your post's title</label>
+                    <input type="text" class="form-control" id="title" placeholder="Enter title">
+                </div>
+                <div class="form-group">
+                    <label for="">Post's BODY</label>
+                    <textarea class="form-control" id="body" rows="3" placeholder="... your interesting data"></textarea>
+                </div>
+
+                <button type="submit" class="publish-button btn btn-primary">POST</button>
+            </form>
+            <br>
+            <img src="public/img/ph5.png" class="card-img-top" alt="...">
+
+        </div>
+    </div>
+
+    <% include ../layout/footer.ejs %>
